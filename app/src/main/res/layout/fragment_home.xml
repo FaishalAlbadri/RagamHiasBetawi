@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragment.HomeFragment">
+
+    <ImageView
+        android:id="@+id/img_home1"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:src="@drawable/home1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_home2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/home2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sejarah"
+        app:layout_constraintDimensionRatio="429:380"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_home1"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/img_nona"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/home_nona"
+        app:layout_constraintBottom_toBottomOf="@+id/img_home2"
+        app:layout_constraintDimensionRatio="170:587"
+        app:layout_constraintLeft_toLeftOf="@+id/img_home2"
+        app:layout_constraintRight_toLeftOf="@+id/img_home2"
+        app:layout_constraintTop_toTopOf="@+id/img_home2" />
+
+    <ImageView
+        android:id="@+id/img_abang"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/home_abang"
+        app:layout_constraintBottom_toBottomOf="@+id/img_home2"
+        app:layout_constraintDimensionRatio="250:587"
+        app:layout_constraintLeft_toRightOf="@+id/img_home2"
+        app:layout_constraintRight_toRightOf="@+id/img_home2"
+        app:layout_constraintTop_toTopOf="@+id/img_home2" />
+
+
+    <ImageView
+        android:id="@+id/btn_sejarah"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:padding="6dp"
+        android:src="@drawable/btn_sejarah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_kuis" />
+
+    <ImageView
+        android:id="@+id/btn_kuis"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:padding="6dp"
+        android:src="@drawable/btn_kuis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btn_sejarah"
+        app:layout_constraintRight_toLeftOf="@+id/btn_penerapan" />
+
+    <ImageView
+        android:id="@+id/btn_penerapan"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:padding="6dp"
+        android:src="@drawable/btn_penerapan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btn_kuis"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

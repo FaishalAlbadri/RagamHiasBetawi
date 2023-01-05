@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="16dp"
+    tools:context=".fragment.SplashScreenFragment">
+
+    <ImageView
+        android:id="@+id/img_sp1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/sp1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="828:936"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+        android:src="@drawable/sp2"
+        app:layout_constraintBottom_toBottomOf="@+id/img_sp1"
+        app:layout_constraintDimensionRatio="388:294"
+        app:layout_constraintLeft_toLeftOf="@+id/img_sp1"
+        app:layout_constraintRight_toLeftOf="@+id/img_ondel"
+        app:layout_constraintTop_toTopOf="@+id/img_ondel" />
+
+    <ImageView
+        android:id="@+id/img_ondel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="80dp"
+        android:src="@drawable/sp3"
+        app:layout_constraintBottom_toBottomOf="@+id/img_sp1"
+        app:layout_constraintDimensionRatio="783:1514"
+        app:layout_constraintLeft_toRightOf="@+id/btn_next"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_sp1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

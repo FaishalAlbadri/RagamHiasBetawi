@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.2015" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19459838867187484" />
+        <entry key="app/src/main/res/layout/activity_youtube.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_batik.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_batik_detail.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.29570922851562503" />
+        <entry key="app/src/main/res/layout/fragment_kuis.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_penerapan_batik.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_penerapan_batik_detail.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/fragment_rumah.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_rumah_detail.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.19897918701171882" />
+        <entry key="app/src/main/res/layout/fragment_tokoh.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_tokoh_detail.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/layout/fragment_youtube.xml" value="0.2586050724637681" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2015" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

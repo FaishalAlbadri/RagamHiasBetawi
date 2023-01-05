@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="16dp"
+    tools:context=".fragment.batik.BatikFragment">
+
+    <ImageView
+        android:id="@+id/img_batik1"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:src="@drawable/batik1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_batik2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/batik2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="493:619"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_batik1"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/btn_next"
+        app:layout_constraintBottom_toBottomOf="@+id/img_batik2"
+        app:layout_constraintDimensionRatio="441:192"
+        app:layout_constraintLeft_toLeftOf="@+id/img_batik2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
