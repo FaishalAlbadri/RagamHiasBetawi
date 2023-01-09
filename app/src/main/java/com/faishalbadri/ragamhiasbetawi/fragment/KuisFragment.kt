@@ -14,6 +14,7 @@ import butterknife.ButterKnife
 import butterknife.OnClick
 import com.faishalbadri.ragamhiasbetawi.MainActivity
 import com.faishalbadri.ragamhiasbetawi.R
+import com.faishalbadri.ragamhiasbetawi.util.Server
 
 class KuisFragment(mainActivity: MainActivity) : Fragment() {
 
@@ -46,7 +47,7 @@ class KuisFragment(mainActivity: MainActivity) : Fragment() {
 
     @OnClick(R.id.btn_mainkan)
     fun onBtnMainkanClicked() {
-        startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://quizizz.com/join?gc=18617835")))
+        startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(Server.QUIZ)))
     }
 
     @OnClick(R.id.btn_profile)
