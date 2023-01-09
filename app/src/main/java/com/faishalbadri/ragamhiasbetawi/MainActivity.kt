@@ -138,6 +138,7 @@ class MainActivity : BaseActivity() {
                 super.onBackPressed()
             } else {
                 showFragment(HomeFragment(this))
+                atHome = true
             }
         }
     }
